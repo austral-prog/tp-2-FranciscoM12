@@ -1,4 +1,8 @@
 def ada():
     first_name = "AdA"
     last_name = "LoVeLAce"
-#https://classroom.github.com/assignment-invitations/2c4bbfe7ed3d30834a5c026d35753275
+    full_name = first_name + " " + last_name
+    print(full_name.lower())
+    print(full_name.title())
+    print(full_name.upper())
+    print("\t"+full_name.lower())
